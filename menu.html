@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Zana Meer Restaurant</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-utensils"></i>
+                <span>Zana Meer</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active">Menu</a>
+                <a href="booking.html" class="nav-link">Booking</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Menu</h1>
+            <p>Discover our carefully crafted dishes made with the finest ingredients</p>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="appetizers">Appetizers</button>
+                <button class="category-btn" data-category="mains">Main Course</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="drinks">Drinks</button>
+            </div>
+
+        
+            <div class="menu-category active" id="appetizers">
+                <h2>Appetizers</h2>
+                <div class="menu-items">
+                    <div class="menu-item-card">
+                        <img src="https://abeautifulmess.com/wp-content/uploads/2023/01/pigs-in-a-blanket.jpg" alt="Bruschetta">
+                        <div class="item-info">
+                            <h3>Pigs in a Blanket</h3>
+                            <p>Toasted bread with truffle oil, tomatoes, and fresh basil</p>
+                            <span class="price">PKR 200</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://img.sndimg.com/food/image/upload/q_92,fl_progressive/v1/img/recipes/53/48/97/si1leg2LQHOzue4NvdYd_0294661_GK_Genius-Obsessions_Cheesy-Shell-Taco-Bites_16x9_v1_H.jpg" alt="Calamari">
+                        <div class="item-info">
+                            <h3>Veggie Pizza</h3>
+                            <p>The Veggie Pizza works best with Finely chopped vegetables.</p>
+                            <span class="price">PKR 300</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3rWyqJpgkWNLo2SBM-udN_5jOFP6xUkDs0Q&s" alt="Oysters">
+                        <div class="item-info">
+                            <h3>Olive Garden</h3>
+                            <p>Lorem ipsum dolor sit amet  sunt?</p>
+                            <span class="price">PKR 100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="mains">
+                <h2>Main Course</h2>
+                <div class="menu-items">
+                    <div class="menu-item-card">
+                        <img src="1.png" alt="Salmon">
+                        <div class="item-info">
+                            <h3>chicken biryani</h3>
+                            <p> chicken biryani recipe that brings bold spices and aromatic flavours together ...</p>
+                            <span class="price">PKR 200</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://yellowchilis.com/wp-content/uploads/2021/09/white-sauce-pasta-recipe-penne-pasta.jpg" alt="Pasta">
+                        <div class="item-info">
+                            <h3>Whita sauce pasta</h3>
+                            <p>Handmade pasta filled with lobster in cream sauce</p>
+                            <span class="price">PKR 400</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://www.secondrecipe.com/wp-content/uploads/2017/08/rajma-chawal-1.jpg" alt="Rajma">
+                        <div class="item-info">
+                            <h3>Rajma Chawal</h3>
+                            <p>Rajma chawal can be made with both white and brown rice.</p>
+                            <span class="price">PKR 500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="desserts">
+                <h2>Desserts</h2>
+                <div class="menu-items">
+                    <div class="menu-item-card">
+                        <img src="https://www.cathysglutenfree.com/wp-content/uploads/2021/01/molten-chocolate-lava-cake-f.jpg" alt="Lava Cake">
+                        <div class="item-info">
+                            <h3>Molten Chocolate Lava Cake</h3>
+                            <p>Molten chocolate lava cakes, with their soft...</p>
+                            <span class="price">PKR 700</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://kitchenflavours.net/wp-content/uploads/2021/02/DSC06260.jpg" alt="Chocolate Cake">
+                        <div class="item-info">
+                            <h3>Fresh Fruit and cream Trifle</h3>
+                            <p>Quick and Easy to make No-Bake Eggless Fruit and Cream</p>
+                            <span class="price">PKR 600</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://www.browneyedbaker.com/wp-content/uploads/2021/10/new-york-cheesecake-21-square-500x500.jpg" alt="Cheesecake">
+                        <div class="item-info">
+                            <h3>New York Cheesecake</h3>
+                            <p>Creamy cheesecake with berry compote</p>
+                            <span class="price">PKR 1200</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="drinks">
+                <h2>Drinks</h2>
+                <div class="menu-items">
+                    <div class="menu-item-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWeeOn0l5588g1qOi5xpcityQlvdQc5RYQsA&s" alt="Water">
+                        <div class="item-info">
+                            <h3>Sparkal water</h3>
+                            <p>Fresh Heathy Water</p>
+                            <span class="price">PKR 100</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLn7ZrxRWk405CJQVqUfm-sPrS1FLS7i_wsg&s" alt="Juice">
+                        <div class="item-info">
+                            <h3>Strawberry Smoothie</h3>
+                            <p>Strawberry Yogurt Smoothie </p>
+                            <span class="price">PKR 400</span>
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaCYzrvqUflSKG4e8yw4dtMYNI7esaqYlk8A&s" alt="Coffee">
+                        <div class="item-info">
+                            <h3>Artisan Coffee</h3>
+                            <p>Freshly roasted coffee beans, espresso, cappuccino</p>
+                            <span class="price">PKR 500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Zana Meer</h3>
+                    <p>Experience fine dining at its best</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Opening Hours</h3>
+                    <ul>
+                        <li>Monday - Thursday: 5:00 PM - 10:00 PM</li>
+                        <li>Friday - Saturday: 5:00 PM - 11:00 PM</li>
+                        <li>Sunday: 4:00 PM - 9:00 PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 0334567892</li>
+                        <li><i class="fas fa-envelope"></i> lohanaveena@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Karachi, Sindh</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+</html>
